@@ -1,0 +1,7 @@
+### Example user template template
+### Example user template
+*.iml
+out
+gen
+read-paper/
+no-read-paper/
