@@ -1,19 +1,20 @@
-# **cv-study**
+# **skill_accumulation_my**
 
 ## Repository Introduction
 
-This repository keeps the precipitation of the algorithm part in the computer vision and other related directions during
-the postgraduate stage, which is only used as a record.
+&#x1F60A;This repository retains relevant records of technology accumulation in computer vision and other related fields during my postgraduate stage, which are only used for learning purposes.
 
-## Directory or Folder
+## Related Links
 
-* no-read-paper(Save unread papers);
-* read-paper(Save spent papers and reading notes);
-* summary-of-read-papers.docx(The idea of saving the summary and reading the paper);
+&#x1F60A;Welcome to visit my Zhihu homepage, Likou homepage, and CSDN blog homepage to get the latest computer vision technology blogs related to defect detection/diffusion model/comparative learning and front-end/back-end development related technology blogs.
+
+&#x1F449;[My CSDN Blog Home Page](https://blog.csdn.net/weixin_43749999)
+&#x1F449;[Zhihu homepage](https://www.zhihu.com/people/the-wang-15)
+&#x1F449;[LeetCode Home Page](https://leetcode.cn/u/wyypersist)
 
 ## &#x1F4E3;News Update[Recently Posted First Show]
 
-**&#x1F449;20230503 update: following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
+&#x1F449;**20230503 update: following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
 
 1. [使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用python SDK进行部署验证](https://blog.csdn.net/weixin_43749999/article/details/130307058?spm=1001.2014.3001.5501)
 2. [使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用C++ SDK加载onnx得到dll动态链接库，实现在windows平台中调用（linux也适用）](https://blog.csdn.net/weixin_43749999/article/details/130308470?spm=1001.2014.3001.5501)
@@ -24,11 +25,22 @@ the postgraduate stage, which is only used as a record.
 7. [python中使用ctypes库调用使用MMDeploy C++ SDK编译得到的dll文件时，出现WinError126的解决方法](https://blog.csdn.net/weixin_43749999/article/details/130413951?spm=1001.2014.3001.5501)
 8. [《MedSegDiff Medical Image Segmentation with Diffusion Probabilistic Model》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/129915838?spm=1001.2014.3001.5501)
 
-## Version update Records
+<br>
+<br>
 
-### **Attention**: Simply click on the paper title to get the pdf download link
+### Papers and related links added from 2022.10.9 to Now
 
-### v1.0 Papers Read (Papers and related links read before 2022.10.9)
+&#x261D;&#x261D;&#x261D;Please see my latest technical blog update on the top&#x261D;&#x261D;&#x261D;
+
+<br>
+<br>
+## --------Previously read articles related to defect detection--------
+
+&#x1F449;**The future will follow the latest update format shown above**&#x2757;
+
+&#x1F449;**Attention: Simply click on the paper title to get the pdf download link**&#x2757;
+
+### Papers and related links read before 2022.10.9
 
 ### [基于深度学习的表面缺陷检测方法综述](http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190811)
 
@@ -481,16 +493,3 @@ the postgraduate stage, which is only used as a record.
 * 向交叉熵Loss中中添加了F分数公式，实现了模型的精确度和召回率的平衡；
 * 需要注意利用图像中不同的组织结构之间的关联关系，从而得到更加明显的特征；
 * 可以使用裁剪图像生成多个cropped块来实现对图像中缺陷的定位和检测（有利于大分辨率图像中的小尺度目标的检测）；
-
-### Until 2022.10.19 at 17:27 PM
-
-### v2.0(Papers and related links added after 2022.10.9)
-
-1. todo...
-
-## Related Links
-
-* [My CSDN Blog Home Page](https://blog.csdn.net/weixin_43749999)
-* [Zhihu homepage](https://www.zhihu.com/people/the-wang-15)
-* [LeetCode Home Page](https://leetcode.cn/u/wyypersist)
-* todo...
