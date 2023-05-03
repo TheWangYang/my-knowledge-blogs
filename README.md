@@ -34,7 +34,7 @@
 
 <br>
 <br>
-## --------Previously read articles related to defect detection--------
+## Previously read articles related to defect detection
 
 &#x1F449;**The future will follow the latest update format shown above**&#x2757;
 
