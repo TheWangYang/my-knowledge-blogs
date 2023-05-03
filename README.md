@@ -11,8 +11,23 @@ the postgraduate stage, which is only used as a record.
 * read-paper(Save spent papers and reading notes);
 * summary-of-read-papers.docx(The idea of saving the summary and reading the paper);
 
+## &#x1F4E3;News Update[Recently Posted First Show]
+
+**&#x1F449;20230503 update: following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
+
+1. [使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用python SDK进行部署验证](https://blog.csdn.net/weixin_43749999/article/details/130307058?spm=1001.2014.3001.5501)
+2. [使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用C++ SDK加载onnx得到dll动态链接库，实现在windows平台中调用（linux也适用）](https://blog.csdn.net/weixin_43749999/article/details/130308470?spm=1001.2014.3001.5501)
+3. [图像融合方向：《Deep Image Blending》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130312466?spm=1001.2014.3001.5501)
+4. [图像融合方向：《GP-GAN: Towards realistic high-resolution image blending》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130372603?spm=1001.2014.3001.5501)
+5. [图像拼接《Leveraging Line-Point Consistence To Preserve Structures for Wide Parallax Image Stitching》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130373860?spm=1001.2014.3001.5501)
+6. [图像拼接方向：《Unsupervised Deep Image Stitching: Reconstructing Stitched Features to Images》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/130375844?spm=1001.2014.3001.5501)
+7. [python中使用ctypes库调用使用MMDeploy C++ SDK编译得到的dll文件时，出现WinError126的解决方法](https://blog.csdn.net/weixin_43749999/article/details/130413951?spm=1001.2014.3001.5501)
+8. [《MedSegDiff Medical Image Segmentation with Diffusion Probabilistic Model》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/129915838?spm=1001.2014.3001.5501)
+
 ## Version update Records
+
 ### **Attention**: Simply click on the paper title to get the pdf download link
+
 ### v1.0 Papers Read (Papers and related links read before 2022.10.9)
 
 ### [基于深度学习的表面缺陷检测方法综述](http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190811)
@@ -95,7 +110,6 @@ the postgraduate stage, which is only used as a record.
 * 多个crop评估性能高于密集评估，但是两者是互相补充的，因为两者共同使用的时候，性能会更好于分别使用两者的情况；
 * 使用网络融合将多个性能较好的模型的评估结果进行平均之后得到的结果更好；
 
-
 #### Ideas
 
 * 增加网络深度有时候可以实现更好的性能；
@@ -104,9 +118,7 @@ the postgraduate stage, which is only used as a record.
 * 多尺度训练可以提高模型的性能，同时在测试时，无论模型是使用多尺度训练还是单一固定尺度训练，都会使得测试性能增加；
 * 使用多个网络预测结果的平均会使得结果更加准确；
 
-
 ### [An End-to-End Steel Surface Defect Detection Approach via Fusing Multiple Hierarchical Features](https://ieeexplore.ieee.org/document/8709818)
-
 
 #### Content Summary
 
@@ -129,12 +141,9 @@ the postgraduate stage, which is only used as a record.
 * 特征融合时，不使用相邻的两个层；
 * 可以修改1*1 CONV层的数量来减少模型的参数；
 
-
 ### [Automatic surface defect detection for mobile phone screen glass based on machine vision](http://pdf.xuebalib.com:1262/grvLJPB6UR2.pdf)
 
-
 #### Content Summary
-
 
 * 文章主要贡献：文中提出了一个MPSG配准算法，并提出了一种基于轮廓的配准（CR）方法生成用于对齐MPSG图像的模板图像，且采用减法和投影相结合的方法对MPSG图像进行缺陷识别，消除了环境光照波动的影响，同时为了从含噪MPSG图像中分割出具有模糊灰色边界的缺陷，本文提出了一种改进的模糊c均值聚类算法（IFCM）；
 * 分类缺陷检测（正常和异常的二元分类算法）、背景重建和移除、模板参考；
@@ -147,20 +156,14 @@ the postgraduate stage, which is only used as a record.
 * 提出的MPSG自动缺陷检测系统包括三个阶段：配准、缺陷检测和分割。在第一阶段，对齐多个无缺陷MPSG图像以生成模板；然后，将测试图像与模板对齐以进行缺陷检测。在第二阶段中，从测试图像中减去模板以产生残余图像。然后，使用残差图像的灰度投影来确定缺陷的存在或不存在。如果存在缺陷，将MPSG从制造过程中移除，并将相应的数据发送到下一阶段进行缺陷分割。在第三阶段，采用改进的FCM方法对缺陷进行精确分割；
 * 阈值法是从图像背景中分割物体的常用技术；
 
-
 #### Ideas
-
 
 * 缺陷检测可以从模板匹配方法上入手，先将原始图像和模板进行配准，然后使用像素相减和基于灰度的投影方法来判断缺陷是否存在，而后使用改进的C均值聚类算法（IFCM）来分割出具有模糊灰色边界的缺陷；
 * 使用Otsu方法可以将图像转换为二值图像（只有黑色或白色的图像，没有中间过滤值）;
 
-
-
 ### [An improved Otsu method using the weighted object variance for defect detection](https://www.sciencedirect.com/science/article/pii/S0169433215011319)
 
-
 #### Content Summary
-
 
 * 文章提出了一种目标加权目标方差WOV（等于缺陷发生累积概率的参数根据类间方差的对象方差进行加权。）；
 * 当对象和图像背景具有相似的方差时，Otsu方法可以获得满意的分割效果，但是，如果对象和图像背景的大小相差很大，该方法将失败；
@@ -170,17 +173,12 @@ the postgraduate stage, which is only used as a record.
 * 针对缺陷检测的自动阈值方法，如VE和NVE方法的研究主要集中在缺陷图像的阈值选择上。忽略了无缺陷图像的分割，导致大多数阈值方法都能正确地将缺陷从背景中分离出来，但却错误地将无缺陷图像归纳为检测图像。如果检测到无缺陷图像是有缺陷的图像，则会导致错误的检测。理想的视觉检测系统应具有高DR和低FAR缺陷；
 * 使用自适应权重解决权重变化问题；
 
-
 #### Ideas
-
 
 * 对于图像分割问题来说，需要同时考虑有缺陷图像和无缺陷图像；
 * 使用自适应权重来解决权重变化问题；
 
-
-
 ### [Multi-Scale Pyramidal Pooling Network for Generic Steel Defect Classification](https://ieeexplore.ieee.org/document/6706920)
-
 
 #### Content Summary
 
@@ -190,15 +188,12 @@ the postgraduate stage, which is only used as a record.
 * 特征编码最常用的方法为：选择一个基的矢量量化（VQ）、保持小子集的稀疏编码（SC）、局部约束线性编码（LLC）等；
 * 使用具有最大池化层的金字塔池层，可以使得金字塔池化层操作更加有效，且可以加快网络的学习速度；
 
-
 #### Ideas
 
 * 金字塔多尺度池化层对不同尺度大小的特征都有比较好的提取能力；
 * 对特征进行再编码，使用MLPDict字典进行编码，从而得到更有效的特征表示方式；
 
-
 ### [Convolutional Networks for Voting-based Anomaly Classification in Metal Surface Inspection](https://ieeexplore.ieee.org/document/7915495)
-
 
 #### Content Summary
 
@@ -208,17 +203,13 @@ the postgraduate stage, which is only used as a record.
 * 使用了多个SVM分类器：SVM LC、SVM FFC、SVM SFC，分别从LC FFC SFC层训练深层次的特征并得到不同的分类结果，然后在预测之后，进行投票机制，最后票数多的SVM得到的类别即为最后的输出类别；
 * 同时，最后的结果为三种不同SVM预测结果的大多数结果，条件优先级设置为大多数卷积神经网络中具有最佳平均性能的层，基于实验作者设置了FFC作为条件优先级；
 
-
 #### Ideas
 
 * 使用多数投票机制可以使得模型的性能更加泛化；
 
-
 ### [TDD-net: a tiny defect detection network for printed circuit boards](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/trit.2019.0019)
 
-
 #### Content Summary
-
 
 * 文章提出了一种微型的缺陷网络（TDD-NET），使用金字塔层和多尺度特征提取方法，使用k-means聚类的方法得到proposals相关的锚点，加强了CONV网络中不同层次之间的联系，使用硬示例挖掘技术更好地解决了小数据集的问题；
 * 使用参考方法来检测PCB表面缺陷存在测试图像和检测模板需完全对齐的难点；
@@ -227,16 +218,13 @@ the postgraduate stage, which is only used as a record.
 * 使用权重衰减0.0001和动量0.9，同时30k小批量的学习率为0.001；
 * 设计了消融实验来验证设计；
 
-
 #### Ideas
 
 * 金字塔层和多尺度特征提取方法结合；
 * 使用k-means聚类方法在train_set上进行聚类得到锚框的位置；
 * 使用OHEM（在线硬示例挖掘方法）解决了小数据集的问题；
 
-
 ### [A CNN-Based Defect Inspection Method for Catenary Split Pins in High-Speed Railway](https://ieeexplore.ieee.org/document/8482333)
-
 
 #### Content Summary
 
@@ -246,15 +234,12 @@ the postgraduate stage, which is only used as a record.
 * 分为三个阶段baseline：第一阶段，第一个PVANET++应用于原始图像，定位组件位置，然后将位置裁剪之后送入到下一个PVANET++网络；第二个网络，用于预测裁剪关节组件图像中的pin_区域，而后继续被裁剪送入到下一个PVANET++中；
 * 在第三个网络中，对于A类SPs，裁剪的pin_区域1、pin_区域2和pin_区域3被发送到第三个PV ANET++以定位特定零件的头部、车身和尾部。这些特定零件的定义将在第五节中介绍。由于销U区域3中的螺栓引起的堵塞问题，采用了两种不同的标准来分别检测A1型和A2型SPs。对于B型SPs，SPs的旋转会导致二维图像中复杂的SPs状态。使用HT&CVM块定位裁剪的pin_区域4中的某些特定零件，然后应用第三个标准进行缺陷检测；
 
-
 #### Ideas
 
 * 使用多级网络实现大像素图像中的微小缺陷重复定位之后再进行检测；
 * 使用和图像中特定结构相关联的锚点生成机制在RPN中生成高质量的区域建议；
 
-
 ### [A Generic Deep-Learning-Based Approach for Automated Surface Inspection](https://ieeexplore.ieee.org/document/7864335)
-
 
 ### Content Summary
 
@@ -264,16 +249,13 @@ the postgraduate stage, which is only used as a record.
 * 使用Otsu方法进行二值化操作；（Otsu方法同构最小化组内方差的最佳阈值来对图像进行二值化）
 * 文中还使用Felzenswalb的分割来细化缺陷区域，该方法根据像素的颜色相似性对其进行分组；
 
-
 #### Ideas
 
 * 预训练DL提取特征，并分为多个patches；
 * 使用patches生成缺陷热图（HM）；
 * 对热图进行阈值分割，使用图分割的方法进一步细化缺陷区域；
 
-
 ### [A High-Precision Positioning Approach for Catenary Support Components With Multiscale Difference](https://ieeexplore.ieee.org/document/8824211)
-
 
 #### Content Summary
 
@@ -292,9 +274,7 @@ the postgraduate stage, which is only used as a record.
 * 利用图像中的多个待检测缺陷的结构信息；
 * 使用无监督聚类算法得到训练集中的图像数据集分类，然后对每个类别得到其中的缺陷检测框的位置作为映射，对测试集图片进行分类之后，取每张图片最大可能性的标签类别使用前边的映射来得到最终的粗略的标定框预测结果；
 
-
 ### [A_Machine_Vision_Apparatus_and_Method_for_Can-End_Inspection](https://ieeexplore.ieee.org/document/7476878)
-
 
 #### Content Summary
 
@@ -305,14 +285,11 @@ the postgraduate stage, which is only used as a record.
 * 卷曲宽度的测量对于罐端被冲压的缺陷非常重要，使用高斯核的二阶导数与投影轮廓进行直接卷积操作，然后将两个过零点之间的距离作为卷曲宽度，然后和阈值进行比较，如果卷曲宽度大于阈值，那么表示存在缺陷；
 * 活动轮廓模型可以用于定位，是一种流行的边界提取算法；
 
-
 #### Ideas
 
 * 熵率聚类算法可以对图像任意K个超像素的划分；
 * 使用超像素分组和选择算法实现缺陷区域的检测；
 * 在计算原始图像和带有缺陷图像的差值之前，可以使用带有二项式的滤波器对图像进行平滑处理；
-
-
 
 ### [Automated defect analysis in electron microscopic images](https://www.nature.com/articles/s41524-018-0093-8.pdf)
 
@@ -321,14 +298,11 @@ the postgraduate stage, which is only used as a record.
 * 文中使用了级联目标检测器，卷积神经网络和局部图像分析方法，使用级联目标检测器作为检测模块、使用CNN作为筛选模块、使用分水岭洪水算法寻找缺陷轮廓+使用区域属性分析得到轮廓的大小信息；
 * 使用在增强的数据集中训练的级联目标检测器，构建了一个有环/没有环的CNN训练集，进行训练之后的CNN对前一阶段得到的所有的bbox中是否包含有环进行分类筛选，从而进一步提高了模型的性能；
 
-
 #### Ideas
 
 * 使用CNN对BBOX进行分类也可以作为筛选目标检测器得到的结果中是否真正包含缺陷的工具；
 
-
 ### [Automatic classification of defective photovoltaic module cells in electroluminescence images](https://arxiv.org/abs/1807.02894v2)
-
 
 #### Content Summary
 
@@ -344,42 +318,33 @@ the postgraduate stage, which is only used as a record.
 * 文中提供的参考性结论：如果图像中关键点的空间分布相当稀疏，那么使用Masking相当有用；
 * 根据图像单元中缺陷可能性的置信度按比例加权样本确实提高了学习分类器的泛化能力；
 
-
 #### Ideas
 
 * 对图像的采样可以考虑使用关键点或密集采样，当图像中关键点的空间分布相当稀疏，那么使用掩码技术相当有用；
 * 可以使用t-SNE相关的方法来分析CNN对特征的学习能力；
 * 对图像集中得到的特征描述符可以使用VLAD方法来得到全局可以用于分类的描述符；
 
-
 ### [Surface Defects Detection Based on Adaptive Multiscale Image Collection and Convolutional Neural Networks](https://ieeexplore.ieee.org/document/8661668)
-
 
 #### Content Summary
 
 * 文章首先使用ImageNet数据集对检测网络进行预训练，然后建立AMIC增强数据集，其中包括自适应多尺度图像提取和训练图像的轮廓局部提取；
 
-
 #### Ideas
 
 * 使用AMIC对数据集进行自动增强；
 
-
 ### [Concrete bridge surface damage detection using a single-stage detector](https://onlinelibrary.wiley.com/doi/abs/10.1111/mice.12500)
-
 
 #### Content Summary
 
 * 文章使用YOLO V3网络架构进行训练，并使用迁移学习的方法初始化了网络的权重，同时还引入了Batch Normalization和Focal loss损失函数；
 
-
 #### Ideas
 
 * 使用YOLO V3检测器对图像进行训练并结合BN和FL来使得模型达到更好的性能；
 
-
 ### [Surface defect classification and detection on extruded aluminum profiles using convolutional neural networks](https://link.springer.com/article/10.1007/s12289-019-01496-1)
-
 
 #### Content Summary
 
@@ -387,12 +352,10 @@ the postgraduate stage, which is only used as a record.
 * 使用数据增强技术来使得模型的泛化能力更加强大；
 * 对选择的原始网络模型的结构进行修改：对于VGG16网络，在其前两个conv层中使用stride=2而不是1，以应对更大分辨率的图像；对于GoogleNet，将第一卷积层的步长从2调整为4，将第二卷积层的步长从1调整为2；对ResNet，在第一卷积层中应用4而不是2的步幅，在第一卷积块中应用2而不是1的步幅；
 
-
 #### Ideas
 
 * 在采集图像数据集时应该就考虑到模型的泛化能力问题；
 * 使用数据增强技术来使得模型的泛化能力更加强大；
-
 
 ### [A fast and robust convolutional neural network-based defect detection model in product quality control](https://link.springer.com/article/10.1007/s00170-017-0882-0)
 
@@ -401,12 +364,10 @@ the postgraduate stage, which is only used as a record.
 * 文中提出了一种精心设计的联合检测CNN架构来实现缺陷检测，对于图像样本，首先根据背景纹理信息确定样本的类别，然后判断其是否包含缺陷区域；
 * 在CNN中采用的池化层使用都是max pooling层，因为其对小失真就有鲁棒性；
 
-
 #### Ideas
 
 * 使用联合CNN架构，先对图像进行类别的确定，然后再使用CNN判断每个图像中是否包含缺陷区域；
 * 在CNN中采用的池化层使用都是max pooling层，因为其对小失真就有鲁棒性；
-
 
 ### [Tire Defect Detection Using Fully Convolutional Network](https://ieeexplore.ieee.org/document/8678643)
 
@@ -419,15 +380,12 @@ the postgraduate stage, which is only used as a record.
 * 通过将FC层替换为CONV层来保留特征图中相对应的空间位置信息；
 * 使用双线性插值的方法来使得特征图的尺寸达到一样，然后便于特征图之间的融合；
 
-
 #### Ideas
 
 * 通过将FC层替换为CONV层，来得到FCN全卷积神经网络且保持有较多的空间位置信息；
 * 可以使用双线性插值的方法来上采样；
 
-
 ### [Automatic pixel-level multiple damage detection of concrete structure using fully convolutional network(DOI：10.1111/mice.12433)](#)
-
 
 #### Content Summary
 
@@ -435,12 +393,10 @@ the postgraduate stage, which is only used as a record.
 * 作者通过微调DenseNet-121构建了FCN架构；
 * 为了获得更好的反卷积性能，将所有平均池化层改为了最大池化层，并将第14层中的全局平均池也替换为核大小为2×2、步长为2的最大池层，DenseNet-121的最终分类器层被丢弃，完全连接层被转换为卷积层，然后是丢失率为0.5的Dropout层，附加具有1×1内核和五个输出通道（第18、21、24、27和30层）的卷积，以预测每个先前输出位置处每个类别（裂纹、剥落、风化、孔洞和背景）的分数，然后是反卷积层，以将先前输出增加采样到像素密集输出。FCN融合了来自DenseNet-121最后一层、所有池层和第一卷积层的预测。在每个反卷积层中，通过实现步长为2的上采样，先前输出的大小增加了一倍。最后，FCN的输出大小与输入大小相同；
 
-
 #### Ideas
 
 * 使用最大池化层替换原来FCN网络中存在的平均池化层可以实现更好的反卷积性能；
 * 使用反卷积操作可以实现输入和输出保持相同的大小，且反卷积输出大小和stride有关；
-
 
 ### [Automatic Metallic Surface Defect Detection and Recognition with Convolutional Neural Networks](https://www.mdpi.com/2076-3417/8/9/1575)
 
@@ -458,7 +414,6 @@ the postgraduate stage, which is only used as a record.
 * 文章中作者在完成了对所有可能的缺陷进行分割之后，又采用blob分析的方法对缺陷轮廓进行更加精确的分割，然后根据图像中的缺陷轮廓提取了最小封闭矩形区域（MER）；
 * 然后作者采用放射变换将MER转换为正MER，且将正MER区域设置为RoI区域；
 
-
 #### Ideas
 
 * 首先使用分割网络得到缺陷的像素级分割结果，然后将得到的RoI区域输入到分类网络中进行缺陷的分类；
@@ -467,64 +422,49 @@ the postgraduate stage, which is only used as a record.
 * 可以使用blob分析对缺陷的轮廓进行更加精确的分割；
 * 使用放射变换可以调整最后RoI区域的映射方向；
 
-
 ### [Fully Convolutional Networks for Surface Defect Inspection in IndustrialEnvironment](https://www.researchgate.net/publication/320304926_Fully_Convolutional_Networks_for_Surface_Defect_Inspection_in_Industrial_Environment)
-
 
 #### Content Summary
 
 * 作者将ZFNet网络最后的FC层修改为CONV卷积层，并使用修改后的网络对缺陷进行像素级的划分，然后对第一阶段得到的RoI区域进行采样得到多个patches作为训练样本；之后，作者使用跨层融合的特征进行检测，并分别计算了不同层特征的得分map，之后对同一个特征层的得分map进行评测，使用投票策略进行决策得到最后的类别；然后对来自两个不同特征层的两个得分map也进行了投票决定最终该patch块的类别分数；
 * 文中将第一个缺陷分割阶段中缺陷区域占总面积n%以上的patches作为下一个阶段的训练样本；
 
-
 #### Ideas
 
 * 将第一个阶段得到的粗略的缺陷分割区域中间缺陷面积占比大于阈值的部分作为patches提供给第二阶段的FCN分割网络中，且在第二阶段的FCN网络中使用了特征层融合的技术；
 
-
 ### [A Fast Detection Method via Region-Based Fully Convolutional Neural Networks for Shield Tunnel Lining Defects](https://dl.acm.org/doi/10.1111/mice.12367)
-
 
 #### Content Summary
 
 * 文章使用FCN分割网络对原始的缺陷图像进行分割，然后在得到的feature map上使用RPN网络得到的对应的RoI区域建议框，然后在特征图上使用卷积核进行操作得到多个对应的特征图，而后对每个特征图将得到的RoI区域映射其中；
 * 之后，使用RoI池化层将每个RoI区域通过大小为w/k*h/k的规则网络划分为k*k个box；
 
-
 #### Ideas
 
 * 使用FCN网络得到的缺陷分割特征Map之后使用位置敏感的RoI方法来得到的区域建议框，然后进行softmax和bounding box regression操作；
 
-
 ### [Deep Learning-Based Intelligent Defect Detection of Cutting Wheels with Industrial Images in Manufacturing](https://www.sciencedirect.com/science/article/pii/S2351978920315808)
-
 
 #### Content Summary(ellipsis)
 
-
 #### Ideas(ellipsis)
-
 
 ### [Segmentation-Based Deep-Learning Approach for Surface-Defect Detection](https://arxiv.org/abs/1903.08536)
 
-
 #### Content Summary
-
 
 * 文章提出了一个基于分割的两阶段的缺陷检测方法，第一阶段包括像素级标签上进行训练的分割网络，第二个阶段包括在分割网络上构建的附加决策网络，来预测整个图像中是否存在异常；
 * 使用Max pooling层进行下采样可以保证较小的特征在网络的前向传播过程中保留下来；
 * 决策网络实际上就是利用第一阶段产生的feature map进行二值分类；
 * 训练细节：首先先训练FCN分割网络，然后冻结FCN网络中的权重来训练决策网络；
 
-
 #### Ideas
 
 * 仅使用Max pooling层进行下采样可以保证较小的特征在网络的前向传播过程中保留下来；
 * 使用冻结训练来处理训练两个相互连接的网络但是Loss不同的问题；
 
-
 ### [Detection of Rail Surface Defects Based on CNN Image Recognition and Classification](https://ieeexplore.ieee.org/document/8323642)
-
 
 #### Content Summary
 
@@ -535,7 +475,6 @@ the postgraduate stage, which is only used as a record.
 * 作者使用提出的约束条件来使得xi自适应地缩小动态范围（其中，xi为Canny边缘检测器获得的一行中每两个相邻边缘点之间的列差）；
 * 实现迁移学习的两种方法：当目标域和源域之间的差异较小时，映射相应的数学关系以扩展目标域中的数据量+当目标域和源域之间存在较大差异时，转移学习建立在卷积神经网络层上，并完成特征的迁移；
 * 作者为了检测定位算法的性能，使用cropped图像和原始的图像分别输入到CNN中来进行分类，从而来对比定位处理算法的性能；
-
 
 #### Ideas
 

@@ -1,7 +1,18 @@
 ### Example user template template
 ### Example user template
-*.iml
-out
-gen
-read-paper/
-no-read-paper/
+base_model/
+defect_detection/
+diffussion_model/
+GNN/
+image_stitching_and_blending/
+image_translation/
+knowledge_map/
+nerf/
+segmentation/
+self_supervised_learning/
+SLAM/
+transformer/
+tricks/
+visual_relation_detection/
+
+
