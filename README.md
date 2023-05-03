@@ -12,18 +12,27 @@
 &#x1F449;[Zhihu homepage](https://www.zhihu.com/people/the-wang-15)
 &#x1F449;[LeetCode Home Page](https://leetcode.cn/u/wyypersist)
 
-## &#x1F4E3;News Update[Recently Posted First Show]
+## &#x1F4E3;News Update&#x2757;[Recently Posted First Show]
 
-&#x1F449;**20230503 update: following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
+**202305032340 update: following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
 
-1. [使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用python SDK进行部署验证](https://blog.csdn.net/weixin_43749999/article/details/130307058?spm=1001.2014.3001.5501)
-2. [使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用C++ SDK加载onnx得到dll动态链接库，实现在windows平台中调用（linux也适用）](https://blog.csdn.net/weixin_43749999/article/details/130308470?spm=1001.2014.3001.5501)
-3. [图像融合方向：《Deep Image Blending》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130312466?spm=1001.2014.3001.5501)
-4. [图像融合方向：《GP-GAN: Towards realistic high-resolution image blending》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130372603?spm=1001.2014.3001.5501)
-5. [图像拼接《Leveraging Line-Point Consistence To Preserve Structures for Wide Parallax Image Stitching》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130373860?spm=1001.2014.3001.5501)
-6. [图像拼接方向：《Unsupervised Deep Image Stitching: Reconstructing Stitched Features to Images》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/130375844?spm=1001.2014.3001.5501)
-7. [python中使用ctypes库调用使用MMDeploy C++ SDK编译得到的dll文件时，出现WinError126的解决方法](https://blog.csdn.net/weixin_43749999/article/details/130413951?spm=1001.2014.3001.5501)
-8. [《MedSegDiff Medical Image Segmentation with Diffusion Probabilistic Model》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/129915838?spm=1001.2014.3001.5501)
+&#x1F449;[《SimpleNet: A Simple Network for Image Anomaly Detection and Localization》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/130476261)
+
+&#x1F449;[使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用python SDK进行部署验证](https://blog.csdn.net/weixin_43749999/article/details/130307058?spm=1001.2014.3001.5501)
+
+&#x1F449;[使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用C++ SDK加载onnx得到dll动态链接库，实现在windows平台中调用（linux也适用）](https://blog.csdn.net/weixin_43749999/article/details/130308470?spm=1001.2014.3001.5501)
+
+&#x1F449;[图像融合方向：《Deep Image Blending》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130312466?spm=1001.2014.3001.5501)
+
+&#x1F449;[图像融合方向：《GP-GAN: Towards realistic high-resolution image blending》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130372603?spm=1001.2014.3001.5501)
+
+&#x1F449;[图像拼接《Leveraging Line-Point Consistence To Preserve Structures for Wide Parallax Image Stitching》论文理解](https://blog.csdn.net/weixin_43749999/article/details/130373860?spm=1001.2014.3001.5501)
+
+&#x1F449;[图像拼接方向：《Unsupervised Deep Image Stitching: Reconstructing Stitched Features to Images》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/130375844?spm=1001.2014.3001.5501)
+
+&#x1F449;[python中使用ctypes库调用使用MMDeploy C++ SDK编译得到的dll文件时，出现WinError126的解决方法](https://blog.csdn.net/weixin_43749999/article/details/130413951?spm=1001.2014.3001.5501)
+
+&#x1F449;[《MedSegDiff Medical Image Segmentation with Diffusion Probabilistic Model》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/129915838?spm=1001.2014.3001.5501)
 
 <br>
 <br>
@@ -37,9 +46,9 @@
 
 ## Previously read articles related to defect detection
 
-&#x1F449;**The future will follow the latest update format shown above**&#x2757;
+&#x1F449;**The future will follow the latest update format shown above**&#x2757;&#x2757;&#x2757;
 
-&#x1F449;**Attention: Simply click on the paper title to get the pdf download link**&#x2757;
+&#x1F449;**Attention: Simply click on the paper title to get the pdf download link**&#x2757;&#x2757;&#x2757;
 
 ### Papers and related links read before 2022.10.9
 
