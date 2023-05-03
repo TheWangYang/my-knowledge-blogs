@@ -28,13 +28,14 @@
 <br>
 <br>
 
-### Papers and related links added from 2022.10.9 to Now
+### ----------------------Papers and related links added from 2022.10.9 to Now-------------------------
 
 &#x261D;&#x261D;&#x261D;Please see my latest technical blog update on the top&#x261D;&#x261D;&#x261D;
 
 <br>
 <br>
-## Previously read articles related to defect detection
+
+## -----------------------Previously read articles related to defect detection------------------------
 
 &#x1F449;**The future will follow the latest update format shown above**&#x2757;
 
