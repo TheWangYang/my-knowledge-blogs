@@ -1,4 +1,4 @@
-# **skill_accumulation_my**
+# **my-knowledge-blogs**
 
 ## Repository Introduction
 
@@ -12,9 +12,11 @@
 &#x1F449;[Zhihu homepage](https://www.zhihu.com/people/the-wang-15)
 &#x1F449;[LeetCode Home Page](https://leetcode.cn/u/wyypersist)
 
-## &#x1F4E3;News Update&#x2757;[Recently Posted First Show]
+## &#x1F4E3;News Update&#x2757; [Recently Posted First Show] [202305131832 Update]
 
-**202305032340 update: following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
+**Following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
+
+&#x1F449;[《机器学习任务中对数值类型做特征归一化的必要性，《百面机器学习》学习笔记》](https://blog.csdn.net/weixin_43749999/article/details/130660382?spm=1001.2014.3001.5501)
 
 &#x1F449;[《SimpleNet: A Simple Network for Image Anomaly Detection and Localization》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/130476261)
 
