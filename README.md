@@ -12,9 +12,11 @@
 &#x1F449;[Zhihu homepage](https://www.zhihu.com/people/the-wang-15)
 &#x1F449;[LeetCode Home Page](https://leetcode.cn/u/wyypersist)
 
-## &#x1F4E3;New Blogs Update &#x2757; [20230513 Update] &#x2757; [Recently Posted First Show]
+## &#x1F4E3;New Blogs Update &#x2757; [20230515 Update] &#x2757; [Recently Posted First Show]
 
 **Following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
+
+&#x1F449;[基于梯度提升决策树的组合特征方法，《百面机器学习》学习笔记](https://blog.csdn.net/weixin_43749999/article/details/130686221?spm=1001.2014.3001.5501)
 
 &#x1F449;[机器学习中对类别型特征的编码方法，《百面机器学习》学习笔记](https://blog.csdn.net/weixin_43749999/article/details/130660900?spm=1001.2014.3001.5501)
 
