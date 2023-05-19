@@ -12,9 +12,15 @@
 &#x1F449;[Zhihu homepage](https://www.zhihu.com/people/the-wang-15)
 &#x1F449;[LeetCode Home Page](https://leetcode.cn/u/wyypersist)
 
-## &#x1F4E3;New Blogs Update &#x2757; [20230515 Update] &#x2757; [Recently Posted First Show]
+## &#x1F4E3;New Blogs Update &#x2757; [20230519 Update] &#x2757; [Recently Posted First Show]
 
 **Following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
+
+&#x1F449;[加载自己做的coco格式实例标注出现TypeError: Argument ‘bb‘ has incorrect type (expected numpy.ndarray, got list)报错解决](https://blog.csdn.net/weixin_43749999/article/details/130771315)
+
+&#x1F449;[《SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection》论文阅读理解](https://blog.csdn.net/weixin_43749999/article/details/130586873?spm=1001.2014.3001.5501)
+
+&#x1F449;[机器学习中高维组合特征的处理方法+推荐系统使用矩阵分解为用户推荐的原理解析，《百面机器学习》学习笔记](https://blog.csdn.net/weixin_43749999/article/details/130661199?spm=1001.2014.3001.5501)
 
 &#x1F449;[基于梯度提升决策树的组合特征方法，《百面机器学习》学习笔记](https://blog.csdn.net/weixin_43749999/article/details/130686221?spm=1001.2014.3001.5501)
 
