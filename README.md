@@ -12,9 +12,11 @@
 &#x1F449;[Zhihu homepage](https://www.zhihu.com/people/the-wang-15)
 &#x1F449;[LeetCode Home Page](https://leetcode.cn/u/wyypersist)
 
-## &#x1F4E3;New Blogs Update &#x2757; [20230519 Update] &#x2757; [Recently Posted First Show]
+## &#x1F4E3;New Blogs Update &#x2757; [20230521 Update] &#x2757; [Recently Posted First Show]
 
-**Following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look**
+**Following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look.**
+
+&#x1F449;[使用MMdeploy编译得到dll动态链接库之后，使用C++文件调用dll动态链接库实现推理](https://blog.csdn.net/weixin_43749999/article/details/130791744)
 
 &#x1F449;[加载自己做的coco格式实例标注出现TypeError: Argument ‘bb‘ has incorrect type (expected numpy.ndarray, got list)报错解决](https://blog.csdn.net/weixin_43749999/article/details/130771315)
 
