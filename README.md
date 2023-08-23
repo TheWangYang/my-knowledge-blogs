@@ -16,6 +16,8 @@
 
 **Following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look.**
 
+&#x1F449;[DETR论文精读笔记](https://blog.csdn.net/weixin_43749999/article/details/132449864)
+
 &#x1F449;[使用MMdeploy编译得到dll动态链接库之后，使用C++文件调用dll动态链接库实现推理](https://blog.csdn.net/weixin_43749999/article/details/130791744)
 
 &#x1F449;[加载自己做的coco格式实例标注出现TypeError: Argument ‘bb‘ has incorrect type (expected numpy.ndarray, got list)报错解决](https://blog.csdn.net/weixin_43749999/article/details/130771315)
