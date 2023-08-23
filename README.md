@@ -12,7 +12,7 @@
 &#x1F449;[Zhihu homepage](https://www.zhihu.com/people/the-wang-15)
 &#x1F449;[LeetCode Home Page](https://leetcode.cn/u/wyypersist)
 
-## &#x1F4E3;New Blogs Update &#x2757; [20230521 Update] &#x2757; [Recently Posted First Show]
+## &#x1F4E3;New Blogs Update &#x2757; [20230823 Update] &#x2757; [Recently Posted First Show]
 
 **Following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look.**
 
