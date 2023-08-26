@@ -16,6 +16,8 @@
 
 **Following articles are what I recently shared on my CSDN blog. If you are interested, you can take a look.**
 
+&#x1F449;[DEFORMABLE DETR: DEFORMABLE TRANSFORMERS FOR END-TO-END OBJECT DETECTION 论文精度笔记](https://blog.csdn.net/weixin_43749999/article/details/132515119?spm=1001.2014.3001.5502)
+
 &#x1F449;[DETR论文精读笔记](https://blog.csdn.net/weixin_43749999/article/details/132449864)
 
 &#x1F449;[使用MMdeploy编译得到dll动态链接库之后，使用C++文件调用dll动态链接库实现推理](https://blog.csdn.net/weixin_43749999/article/details/130791744)
